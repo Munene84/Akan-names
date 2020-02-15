@@ -1,0 +1,6 @@
+.background_picture{
+  opacity: 0.8;
+  height: 790px;
+  width: 100%;
+  background-image: url('../images/images.jpeg');
+}
