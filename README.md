@@ -22,4 +22,4 @@ edwinmunene95@gmail.com
 ## Link to the Portfolio Online Page
 https://munene84.github.io/Akan-names/
 ## License and copyright information.
-Copyright (c) Edwin Munene Contributor. All rights reserved. See my [MIT License](https://github.com/Munene84/Akan-names/blob/master/LICENSE.txtt) for details.
+Copyright (c) Edwin Munene Contributor. All rights reserved. See my [MIT License](https://github.com/Munene84/Akan-names/blob/master/LICENSE.txt) for details.
