@@ -1,38 +1,65 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
     <meta charset="utf-8">
-    <title>Calculator</title>
+    <title>Akan Name</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
-  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-    <script src="js/scripts.js"></script>
-    <body>
+  <body>
+    <script type="text/javascript" src="js/scripts.js"></script>
     <div class="container">
-        <div class="jumbotron">
-    <div class="row background_picture">
-      <div class="col-md-12 navigation">
-<div class="action_page">
-    <label for="Birthday">Birthday:</label>
-    <input type="text" id="Birthday" name="Birthday"><br><br>
-    <label for="DayOfWeek">DayOfWeek:</label>
-    <input type="number" id="DayOfWeek" name="DayOfWeek"><br><br>
+      <div class="jumbotron">
+        <div class="row background_picture">
+  <div class="col-md-12 navigation">
+
+        <h1 class="display-4">Akan Name</h1>
+
+<form>
 
 
-  <div class="Gender">
-    <label for="gender">Choose gender:</label>
-<select id="gender" name="gender" size="3">
-  <option value="male">Male</option>
-  <option value="female">female</option>
-  </select><br><br>
-    <input type="submit" value="Submit">
-    </form>
-  </div>
-</div>
+      <div class="row birthday_form">
+          <div class="">
+          <h1>Enter your information</h1><br>
+          <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-lg">Year</span>
+            </div>
+            <input type="text" class="form-control" id="year" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required>
+          </div>
+          <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-lg">Month</span>
+            </div>
+            <input type="text" class="form-control" id="month" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required>
+          </div>
+          <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-lg">Day </span>
+            </div>
+            <input type="text" class="form-control" id="dayofmonth" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required>
+          </div>
+          <div class="input-group input-group-lg mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputGroupSelect01">Gender</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+              <option selected>Choose gender</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+            </select>
+          </div>
+          <button type="button" class="btn btn-info" id="result" onclick="akanNameFind();">Check Validity</button><br>
+          <div class="result_box">
+              <h2 id="answer"></h2>
+              </form>
+            </div>
+          </div>
+          </div>
+        </div>
 
 </div>
-</div>
-</div>
-</div>
-    </body>
+      </div>
+    </div>
+  </body>
 </html>
